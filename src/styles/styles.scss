@@ -28,5 +28,21 @@ input{
 
 .calcButton:hover{
     color: black;
-    background-color: #ddd;
+    background-color: #ccc;
+}
+
+.calcStats{
+    width:80%;
+    margin: 0 auto;
+    border-collapse: collapse
+}
+
+td, th{
+        border: 1px solid #ccc;
+        padding:5px;
+        width:50px;
+}
+
+col{
+    display:inline-block;
 }

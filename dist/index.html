@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
 
 <head>
 <title>Title of the document</title>
 </head>
 
 <body>
+
 
 <div class="container">
     <h2>Baseball Batting Stats Calculator</h2>
@@ -35,7 +36,7 @@
 
        <div class="iB">
        <label for="doubles">Doubles (2B)</label>
-       <input type="text" size="6" id="doubled" />
+       <input type="text" size="6" id="doubles" />
        </div>
 
        <div class="iB">
@@ -66,8 +67,51 @@
        <div>
        <input class="calcButton" type="button" id="calculate" value="CALCULATE" />
        </div>
+</div></br></br>
 
+
+<!-- Output -->
+<div class="container">
+<table class="calcStats">
+    <tr>
+        <col>
+        <colgroup span="1"></colgroup>
+        <th>G</th>
+        <th>AB</th>
+        <th>H</th>
+        <th>R</th>
+        <th>2B</th>
+        <th>3B</th>
+        <th>HR</th>
+        <th>RBI</th>
+        <th>K</th>
+        <th>BB</th>
+        <th>BA</th>
+        <th>OBP</th>
+        <th>SLG</th>
+        <th>OPS</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 </div>
+
+
+<script type="text/javascript" src="scripts/hitter_calc.min.js"></script>
 
 </body>
 
