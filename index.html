@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+<head>
+<title>Title of the document</title>
+</head>
+
+<body>
+
+
+<div class="container">
+    <h2>Baseball Batting Stats Calculator</h2>
+    <p> Enter the corresponsing values below<p></br>
+    <div class="inputDiv">
+       <div class="iB">
+       <label for="games">Games (G)</label>
+       <input type="text" size="6" id="games" />
+       </div>
+
+       <div class="iB">
+       <label for="atBats">At Bats (AB)</label>
+       <input type="text" size="6" id="atBats" />
+       </div>
+
+       <div class="iB">
+       <label for="hits">Hits (H)</label>
+       <input type="text" size="6" id="hits" />
+       </div>
+
+       <div class="iB">
+       <label for="runs">Runs (R)</label>
+       <input type="text" size="6" id="runs" />
+       </div>
+
+       <div class="iB">
+       <label for="doubles">Doubles (2B)</label>
+       <input type="text" size="6" id="doubles" />
+       </div>
+
+       <div class="iB">
+       <label for="triples">Triples (3B)</label>
+       <input type="text" size="6" id="triples" />
+       </div>
+
+       <div class="iB">
+       <label for="homeruns">Home Runs (HR)</label>
+       <input type="text" size="6" id="homeruns" />
+       </div>
+
+       <div class="iB">
+       <label for="rbi">Runs Batted In (RBI)</label>
+       <input type="text" size="6" id="rbi" />
+       </div>
+
+       <div class="iB">
+       <label for="strikeouts">Strike Outs (K)</label>
+       <input type="text" size="6" id="strikeouts" />
+       </div>
+
+       <div class="iB">
+       <label for="walks">Walks (BB)</label>
+       <input type="text" size="6" id="walks" />
+       </div></br></br>
+
+       <div>
+       <input class="calcButton" type="button" id="calculate" value="CALCULATE" />
+       </div>
+</div></br></br>
+
+
+<!-- Output -->
+<div class="container">
+<table class="calcStats">
+    <tr>
+        <col>
+        <colgroup span="1"></colgroup>
+        <th>G</th>
+        <th>AB</th>
+        <th>H</th>
+        <th>R</th>
+        <th>2B</th>
+        <th>3B</th>
+        <th>HR</th>
+        <th>RBI</th>
+        <th>K</th>
+        <th>BB</th>
+        <th>BA</th>
+        <th>OBP</th>
+        <th>SLG</th>
+        <th>OPS</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+</div>
+
+
+<script type="text/javascript" src="scripts/hitter_calc.min.js"></script>
+
+</body>
+
+</html>
+
