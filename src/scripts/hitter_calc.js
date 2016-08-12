@@ -14,11 +14,17 @@ function calculate_stats ()
     RBI = $("rbi").value;
     K = $("strikeouts").value;
     BB = $("walks").value; 
+    HBP = $("hbp").value; 
+    SF = $("sf").value; 
 
-    var BA_raw= H / AB;
+    var BA_raw = H / AB;
     var BA = Math.ceil(BA_raw *1000) / 1000;
-    alert(BA);
 
+    var OBP_raw = (H + BB + HBP) / (AB + BB + HBP + SF);
+    var OBP = Math.ceil(OBP_raw *1000) / 1000;
+
+    alert(BA, OBP);
+   
     
 }
 
