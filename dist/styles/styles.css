@@ -1,5 +1,14 @@
 body {
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%; }
+
+h2 {
+  font-family: 'Archivo', Arial, Helvetica, sans-serif;
+  font-size: 2em; }
+
+.backgroundImg {
+  background-image: url("../images/baseball.jpg");
+  background-size: cover; }
 
 .container {
   width: 100%;
@@ -7,7 +16,8 @@ body {
 
 input {
   margin-right: 20px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.85); }
 
 .iB {
   display: inline-block; }
@@ -23,7 +33,7 @@ input {
 
 .calcButton:hover {
   color: black;
-  background-color: #ccc; }
+  background-color: white; }
 
 .calcStats {
   width: 80%;
@@ -33,9 +43,17 @@ input {
 td, th {
   border: 1px solid #ccc;
   padding: 5px;
-  width: 40px; }
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border: 1px solid black; }
 
 col {
+  display: inline-block; }
+
+.hide {
+  display: none; }
+
+.show {
   display: inline-block; }
 
 /*# sourceMappingURL=styles.css.map */

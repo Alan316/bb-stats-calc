@@ -4,6 +4,9 @@ var $ = function (id) {
 
 function calculate_stats () 
 {
+
+     document.getElementById('results').classList.add('show');
+
      G = $("games").value;
      AB =$("atBats").value;
      H = $("hits").value;
